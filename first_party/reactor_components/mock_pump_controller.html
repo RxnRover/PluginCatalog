@@ -1,0 +1,261 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Mock Pump Controller &mdash; Rxn Rover Plugin Catalog  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Mock Temperature Controller" href="mock_temperature_controller.html" />
+    <link rel="prev" title="Omega Platinum Series" href="omega_platinum_series_temperature.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Rxn Rover Plugin Catalog
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">First-Party Plugins</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Plugin Classes</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../analyzers/index.html">Analyzers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../optimizers/index.html">Optimization and Control</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Reactor Components</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="chromtech_nextgen_pumps.html">ChromTech Next Generation Pumps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chromtech_series_iii_pump.html">ChromTech Series Pump</a></li>
+<li class="toctree-l3"><a class="reference internal" href="omega_platinum_series_temperature.html">Omega Platinum Series</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Mock Pump Controller</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#acquisition">Acquisition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#description">Description</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mock_temperature_controller.html">Mock Temperature Controller</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Third-Party Plugins</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../third_party/index.html">Plugin Classes</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Submissions</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../submissions/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../submissions/plugin_submission_form.html">Plugin Submission Form</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../submissions/submit_a_plugin.html">Submit a Plugin</a></li>
+</ul>
+<p class="caption"><span class="caption-text">The Rxn Rover Team</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://RxnRover.github.io/about">About Us</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://RxnRover.github.io/contact">Contact Us</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Rxn Rover Plugin Catalog</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html">First-Party Plugins</a> &raquo;</li>
+        
+          <li><a href="index.html">Reactor Components</a> &raquo;</li>
+        
+      <li>Mock Pump Controller</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/first_party/reactor_components/mock_pump_controller.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="mock-pump-controller">
+<h1>Mock Pump Controller<a class="headerlink" href="#mock-pump-controller" title="Permalink to this headline">¶</a></h1>
+<p>Plugin class: Simulated component</p>
+<section id="acquisition">
+<h2>Acquisition<a class="headerlink" href="#acquisition" title="Permalink to this headline">¶</a></h2>
+<p>This plugin is available for download at
+<a class="reference external" href="https://github.com/RxnRover/plugin_mock_pump_controller">https://github.com/RxnRover/plugin_mock_pump_controller</a>.</p>
+</section>
+<section id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>This plugin simulates basic control over a liquid pump, including flow rate
+control, start and stop commands, and pressure monitoring. The plugin keeps
+a log of all data collected in a CSV format for easy analysis using a
+spreadsheet program.</p>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="mock_temperature_controller.html" class="btn btn-neutral float-right" title="Mock Temperature Controller" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="omega_platinum_series_temperature.html" class="btn btn-neutral float-left" title="Omega Platinum Series" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Iowa State University.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

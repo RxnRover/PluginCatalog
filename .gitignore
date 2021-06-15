@@ -1,0 +1,29 @@
+# Adopted from: https://github.com/github/gitignore/blob/master/Python.gitignore,
+# which is distributed under 
+# CC0-v1.0 (https://github.com/github/gitignore/blob/master/LICENSE)
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sphinx documentation
+build/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Compressed files
+*.7z*
+*.gz
+*.gzip
+*.rar
+*.tar
+*.tar.*
+*.zip

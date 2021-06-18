@@ -8,6 +8,7 @@ __pycache__/
 *$py.class
 
 # Sphinx documentation
+_build/
 build/
 
 # Environments

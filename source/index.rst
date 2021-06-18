@@ -28,5 +28,6 @@ plugin, or learn a little bit about us!
    :maxdepth: 1
    :caption: The Rxn Rover Team
    
+   Team Homepage <https://RxnRover.github.io>
    About Us <https://RxnRover.github.io/about>
    Contact Us <https://RxnRover.github.io/contact>

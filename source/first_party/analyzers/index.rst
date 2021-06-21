@@ -15,3 +15,9 @@ submit any questions as new issues tagged with "question".
    :caption: Liquid Chromatography
    
    waters_patrol_uplc_report_parser
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Mock Analyzers
+   
+   mock_lc_parser

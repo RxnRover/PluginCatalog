@@ -23,8 +23,8 @@ The basic steps to submit a plugin to the catalog are as follows:
 #. `Clone <https://docs.github.com/en/github/creating-cloning-and-archiving
    -repositories/cloning-a-repository-from-github/cloning-a-repository>`_ your 
    fork of the plugin catalog to your local computer.
-#. Add your submission form to ``<catalog_location>/source/third_party/
-   <type>/``, where ``<catalog_location>`` is the top-level directory of your 
+#. Add your submission form to ``<catalog_location>/source/third_party/<type>/``,
+   where ``<catalog_location>`` is the top-level directory of your 
    forked plugin catalog and ``<type>`` is the directory corresponding to the 
    functionality of your plugin.
 #. Link your submission form to the catalog by adding it to the 

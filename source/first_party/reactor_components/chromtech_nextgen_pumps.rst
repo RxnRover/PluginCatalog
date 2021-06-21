@@ -7,7 +7,7 @@ Acquisition
 -----------
 
 This plugin is available for download at 
-`<https://github.com/RxnRover/plugin_chromtech_nextgen_pumps>`_.
+`<https://github.com/RxnRover/plugin_chromtech_nextgen>`_.
 
 Description
 -----------

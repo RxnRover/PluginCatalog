@@ -12,5 +12,6 @@ any questions through the channels requested by the plugin authors.
    analyzers/index
    optimizers/index
    reactor_components/index
+   templates/index
 
 

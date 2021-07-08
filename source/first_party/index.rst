@@ -12,3 +12,4 @@ issues tagged with "question".
    analyzers/index
    optimizers/index
    reactor_components/index
+   templates/index

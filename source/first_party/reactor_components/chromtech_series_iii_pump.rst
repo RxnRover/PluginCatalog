@@ -37,4 +37,4 @@ Requirements
     -  ChromTech Series III driver
     - `Dynamic Reentrant <https://github.com/RxnRover/DynamicReentrant>`_.
     - `RxnRover <https://github.com/RxnRover/RxnRover>`_.
-- **Supported Hardware:** `Omega Platinum Series Temperature Controllers <https://hitech-engg.com/pdf/04%20SSI_labaliance/Series%20III%20Pump.pdf>`_.
+- **Supported Hardware:** `ChromTech Series III pump <https://hitech-engg.com/pdf/04%20SSI_labaliance/Series%20III%20Pump.pdf>`_.

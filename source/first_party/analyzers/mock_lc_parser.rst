@@ -6,8 +6,25 @@ Plugin class: Analyzer
 Acquisition
 -----------
 
-This plugin is available for download at 
-`<https://github.com/RxnRover/plugin_mock_lc_parser>`_.
+Download and install the plugin and required drivers from the official GitHub release pages listed below.
+
+**Downloads**
+
+- **Plugin (.vip file):**  
+  `Omega Platinum Series Plugin – Releases <https://github.com/RxnRover/plugin_mock_lc_parser/releases>`_.
+
+**Optional Source Code**
+
+- `Plugin Repository <https://github.com/RxnRover/plugin_mock_lc_parser>`_.
+
+Requirements
+------------
+
+- **File Type:** LabVIEW Plugin (``.vip``)
+- **Dependencies:** 
+    -  Python 3.x or higher installed on your system.
+    - `Dynamic Reentrant <https://github.com/RxnRover/DynamicReentrant>`_.
+    - `RxnRover <https://github.com/RxnRover/RxnRover>`_.
 
 Description
 -----------

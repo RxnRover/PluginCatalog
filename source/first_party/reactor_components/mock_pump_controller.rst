@@ -6,8 +6,25 @@ Plugin class: Simulated component
 Acquisition
 -----------
 
-This plugin is available for download at 
-`<https://github.com/RxnRover/plugin_mock_pump_controller>`_.
+Download and install the plugin and required drivers from the official GitHub release pages listed below.
+
+**Downloads**
+
+- **Plugin (.vip file):**  
+  `Omega Platinum Series Plugin – Releases <https://github.com/RxnRover/plugin_mock_pump_controller/releases>`_.
+
+**Optional Source Code**
+
+- `Plugin Repository <https://github.com/RxnRover/plugin_mock_pump_controller>`_.
+
+Requirements
+------------
+
+- **File Type:** LabVIEW Plugin (``.vip``)
+- **Dependencies:** 
+    - `Dynamic Reentrant <https://github.com/RxnRover/DynamicReentrant>`_.
+    - `RxnRover <https://github.com/RxnRover/RxnRover>`_.
+- **Supported Hardware:** Mock Pump Controller (simulated component).
 
 Description
 -----------

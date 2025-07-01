@@ -11,7 +11,7 @@ including flow rate control, start and stop commands, and pressure monitoring.
 The plugin keeps a log of all data collected in a CSV format for easy analysis
 using a spreadsheet program.
 
-- **Supported Hardware:** `ChromTech Series III pump 
+- **Supported Hardware:** ChromTech Series III pump 
 
 Acquisition
 -----------

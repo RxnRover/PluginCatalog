@@ -18,17 +18,8 @@ Download and install the plugin and required drivers from the official GitHub re
 **Downloads**
 
 - **Plugin (.vip file):**  
-  `Mock LC Parser Plugin – Releases <https://github.com/RxnRover/plugin_mock_lc_parser/releases>`_.
+  `Mock LC Parser Plugin – Releases <https://github.com/RxnRover/plugin_mock_lc_parser/releases>`_
 
-**Optional Source Code**
+**Source Code**
 
-- `Plugin Repository <https://github.com/RxnRover/plugin_mock_lc_parser>`_.
-
-Requirements
-------------
-
-- **File Type:** LabVIEW Plugin (``.vip``)
-- **Dependencies:** 
-    -  Python 3.x or higher installed on your system.
-    - `Dynamic Reentrant <https://github.com/RxnRover/DynamicReentrant>`_.
-    - `RxnRover <https://github.com/RxnRover/RxnRover>`_.
+- `Plugin Repository <https://github.com/RxnRover/plugin_mock_lc_parser>`_

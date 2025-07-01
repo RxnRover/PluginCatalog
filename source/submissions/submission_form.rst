@@ -11,6 +11,7 @@ A brief description of the plugin describing:
  hardware it works on)
 * Plugin Capabilities
 
+- **Supported Hardware:** Example Hardware 
 
 Acquisition
 -----------
@@ -20,21 +21,11 @@ A brief statement about how to acquire the plugin. For example:
 **Downloads**
 
 - **Plugin (.vip file):**  
-  `Plugin Name Plugin – Releases <link to plugin releases>`_.
+  `Plugin Name Plugin – Releases <link to plugin releases>`_
 
 - **Required Drivers:**  
-  `Required Drivers – Releases <link to driver releases>`_.
+  `Required Drivers – Releases <link to driver releases>`_
 
-**Optional Source Code**
+**Source Code**
 
-- `Plugin Repository <link to plugin repository>`_.
-
-Requirements
-------------
-
-A brief statement about the requirements for the plugin. For example:
-
-- **File Type:** LabVIEW Plugin (``.vip``)
-- **Dependencies:**
-    - `Example Dependency <link to Dynamic Reentrant>`_.
-- **Supported Hardware:** `Example Hardware <link to hardware website>`_.
+- `Plugin Repository <link to plugin repository>`_

@@ -1,7 +1,15 @@
 ChromTech Next Generation Pumps
 ===============================
 
-Plugin class: Reactor component
+Description
+-----------
+
+Plugin class: Pump Controller
+
+This plugin provides basic control over ChromTech Next Generation pumps, 
+including flow rate control, start and stop commands, and pressure monitoring.
+The plugin keeps a log of all data collected in a CSV format for easy analysis
+using a spreadsheet program.
 
 Acquisition
 -----------
@@ -29,13 +37,6 @@ Requirements
     - ChromTech NextGen driver 
     - `Dynamic Reentrant <https://github.com/RxnRover/DynamicReentrant>`_.
     - `RxnRover <https://github.com/RxnRover/RxnRover>`_.
-- **Supported Hardware:** ChromTech Next Generation Pumps <https://chromtech.com/chrom-tech-pumps/>`_.
+- **Supported Hardware:** `ChromTech Next Generation Pumps <https://chromtech.com/chrom-tech-pumps/>`_.
 
 
-Description
------------
-
-This plugin provides basic control over ChromTech Next Generation pumps, 
-including flow rate control, start and stop commands, and pressure monitoring.
-The plugin keeps a log of all data collected in a CSV format for easy analysis
-using a spreadsheet program.

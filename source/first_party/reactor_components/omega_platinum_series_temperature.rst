@@ -1,7 +1,15 @@
 Omega Platinum Series
 =====================
 
-Plugin class: Reactor component
+Description
+-----------
+
+Plugin class: Temperature Controller
+
+This plugin provides basic control over Omega Platinum Series temparature 
+controllers, including temperature control, monitoring, start, and stop 
+commands. The plugin keeps a log of all data collected in a CSV format for 
+easy analysis using a spreadsheet program.
 
 Acquisition
 -----------
@@ -29,12 +37,4 @@ Requirements
     -  Omega Platinum Series driver 
     - `Dynamic Reentrant <https://github.com/RxnRover/DynamicReentrant>`_.
     - `RxnRover <https://github.com/RxnRover/RxnRover>`_.
-- **Supported Hardware:** Omega Platinum Series Temperature Controllers <https://www.omega.co.uk/pptst/CNPT_SERIES.html>`_.
-
-Description
------------
-
-This plugin provides basic control over Omega Platinum Series temparature 
-controllers, including temperature control, monitoring, start, and stop 
-commands. The plugin keeps a log of all data collected in a CSV format for 
-easy analysis using a spreadsheet program.
+- **Supported Hardware:** `Omega Platinum Series Temperature Controllers <https://www.omega.co.uk/pptst/CNPT_SERIES.html>`_.

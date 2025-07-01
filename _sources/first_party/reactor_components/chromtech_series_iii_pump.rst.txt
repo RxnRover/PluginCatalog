@@ -1,5 +1,5 @@
-ChromTech Series Pump
-=====================
+ChromTech Series III Pump
+=========================
 
 Description
 -----------

@@ -12,7 +12,7 @@ Plugin class: Pump Controller
 
 This plugin provides basic control over a MilliGAT pump from GlobalFIA, including flow rate control, start and stop commands. The plugin keeps a log of all data collected in a CSV format for easy analysis using a spreadsheet program.
 
-- **Supported Hardware:** MilliGAT Pump from GlobalFIA `https://www.globalfia.com/shop/milliGAT-Pump-p459726977/`_
+- **Supported Hardware:** MilliGAT Pump from `GlobalFIA <https://www.globalfia.com/shop/milliGAT-Pump-p459726977/>`_
 
 Acquisition
 -----------

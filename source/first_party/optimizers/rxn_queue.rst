@@ -10,9 +10,9 @@ Description
 
 Plugin class: Optimizer
 
-This plugin is a work-in-progress that will allow the user to provide a list
-of reaction conditions to perform. Rxn Queue will allow Rxn Rover to 
-sequentially perform the provided reactions, logging the results.
+Rxn Q is a Rxn Rover plugin and stand-alone LabVIEW program that performs a sequence of reaction conditions in the given order. A user can create a queue of reaction conditions using the Rxn Q user interface, or load the reaction queue from a formatted file (see CSV File Format section below). This sequence can be paused, modified or added to, and resumed during an experiment, although changes on the current or previous lines will not take effect!
+
+Note: No timing element is built into Rxn Q. The queue will proceed to the next set of reaction conditions immediately upon submitting the result for the current reaction conditions, or when the current line is skipped.
 
 
 Acquisition

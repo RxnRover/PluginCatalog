@@ -6,7 +6,7 @@ Description
 
 Plugin class: Temperature Controller
 
-This plugin provides basic control over Omega Platinum Series temparature 
+This plugin provides basic control over Omega Platinum Series temperature 
 controllers, including temperature control, monitoring, start, and stop 
 commands. The plugin keeps a log of all data collected in a CSV format for 
 easy analysis using a spreadsheet program.

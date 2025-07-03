@@ -18,9 +18,7 @@
       <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Mock LC Parser" href="mock_lc_parser.html" />
-    <link rel="prev" title="Waters ™ Patrol ™ UPLC ™ Report Parser" href="waters_patrol_uplc_report_parser.html" /> 
+    <link rel="search" title="Search" href="../../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -43,23 +41,8 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">First-Party Plugins</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Plugin Classes</a><ul class="current">
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Analyzers</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="waters_patrol_uplc_report_parser.html">Waters ™ Patrol ™ UPLC ™ Report Parser </a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">React IR Report Parser (in-development)</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#description">Description</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#acquisition">Acquisition</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="mock_lc_parser.html">Mock LC Parser</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../optimizers/index.html">Optimization and Control</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../reactor_components/index.html">Reactor Components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../templates/index.html">Templates</a></li>
-</ul>
-</li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Plugin Classes</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Third-Party Plugins</span></p>
 <ul>
@@ -92,8 +75,6 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="../index.html">First-Party Plugins</a></li>
-          <li class="breadcrumb-item"><a href="index.html">Analyzers</a></li>
       <li class="breadcrumb-item active">React IR Report Parser (in-development)</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/first_party/analyzers/reactir_report_parser.rst.txt" rel="nofollow"> View page source</a>
@@ -113,6 +94,8 @@
 <section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Link to this heading"></a></h2>
 <p>Plugin class: Analyzer</p>
+<p>This plugin parses report files output from a ReactIR(TM) to extract the peak intensity of an analyte. The plugin will average the results of any number of scans before reporting a new concentration value to Rxn Rover. A sample report is included with the plugin, whose format must be matched exactly for the parser to work.</p>
+<p>Note: The ReactIR trademark is owned by Mettler Toledo and its affiliated entities.</p>
 </section>
 <section id="acquisition">
 <h2>Acquisition<a class="headerlink" href="#acquisition" title="Link to this heading"></a></h2>
@@ -120,13 +103,13 @@
 <p><strong>Downloads</strong></p>
 <ul class="simple">
 <li><p><strong>Plugin (.vip file):</strong>
-<a class="reference external" href="https://github.com/RxnRover/">f – Releases</a></p></li>
+<a class="reference external" href="https://github.com/RxnRover/plugin_reactir_report_parser/releases">React IR Report Parser Plugin – Releases</a></p></li>
 <li><p><strong>Drivers:</strong>
 This plugin does not require any additional drivers.</p></li>
 </ul>
 <p><strong>Source Code</strong></p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/RxnRover/">Plugin Repository</a></p></li>
+<li><p><a class="reference external" href="https://github.com/RxnRover/plugin_reactir_report_parser">Plugin Repository</a></p></li>
 </ul>
 </section>
 </section>
@@ -134,10 +117,7 @@ This plugin does not require any additional drivers.</p></li>
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="waters_patrol_uplc_report_parser.html" class="btn btn-neutral float-left" title="Waters ™ Patrol ™ UPLC ™ Report Parser" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="mock_lc_parser.html" class="btn btn-neutral float-right" title="Mock LC Parser" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 

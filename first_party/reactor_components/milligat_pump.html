@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Milligat Pump (in-development) &mdash; Rxn Rover Plugin Catalog  documentation</title>
+  <title>MilliGAT Pump (in-development) &mdash; Rxn Rover Plugin Catalog  documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
 
@@ -51,7 +51,7 @@
 <li class="toctree-l3"><a class="reference internal" href="chromtech_nextgen_pumps.html">ChromTech Next Generation Pumps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="chromtech_series_iii_pump.html">ChromTech Series III Pump</a></li>
 <li class="toctree-l3"><a class="reference internal" href="omega_platinum_series_temperature.html">Omega Platinum Series</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Milligat Pump (in-development)</a><ul>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">MilliGAT Pump (in-development)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#description">Description</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#acquisition">Acquisition</a></li>
 </ul>
@@ -98,7 +98,7 @@
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../index.html">First-Party Plugins</a></li>
           <li class="breadcrumb-item"><a href="index.html">Reactor Components</a></li>
-      <li class="breadcrumb-item active">Milligat Pump (in-development)</li>
+      <li class="breadcrumb-item active">MilliGAT Pump (in-development)</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/first_party/reactor_components/milligat_pump.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -109,7 +109,7 @@
            <div itemprop="articleBody">
              
   <section id="milligat-pump-in-development">
-<h1>Milligat Pump (in-development)<a class="headerlink" href="#milligat-pump-in-development" title="Link to this heading"></a></h1>
+<h1>MilliGAT Pump (in-development)<a class="headerlink" href="#milligat-pump-in-development" title="Link to this heading"></a></h1>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>This plugin is currently in development and is <strong>not publicly accessible at this time</strong>.</p>
@@ -117,6 +117,10 @@
 <section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Link to this heading"></a></h2>
 <p>Plugin class: Pump Controller</p>
+<p>This plugin provides basic control over a MilliGAT pump from GlobalFIA, including flow rate control, start and stop commands. The plugin keeps a log of all data collected in a CSV format for easy analysis using a spreadsheet program.</p>
+<ul class="simple">
+<li><p><strong>Supported Hardware:</strong> MilliGAT Pump from GlobalFIA <a href="#id1"><span class="problematic" id="id2">`https://www.globalfia.com/shop/milliGAT-Pump-p459726977/`_</span></a></p></li>
+</ul>
 </section>
 <section id="acquisition">
 <h2>Acquisition<a class="headerlink" href="#acquisition" title="Link to this heading"></a></h2>
@@ -124,9 +128,9 @@
 <p><strong>Downloads</strong></p>
 <ul class="simple">
 <li><p><strong>Plugin (.vip file):</strong>
-<a class="reference external" href="https://github.com/RxnRover/">f – Releases</a></p></li>
+<a class="reference external" href="https://github.com/RxnRover/">MilliGAT Pump Plugin – Releases</a></p></li>
 <li><p><strong>Drivers:</strong>
-This plugin does not require any additional drivers.</p></li>
+MilliGAT pump drivers are required to communicate with the pumps. These drivers can be obtained from GlobalFIA using their information email, <strong>info&#64;globalfia.com</strong>. Once the drivers are downloaded, extract the files into your &lt;labview&gt;/instr.lib directory, where &lt;labview&gt; is the location of your LabVIEW installation.</p></li>
 </ul>
 <p><strong>Source Code</strong></p>
 <ul class="simple">

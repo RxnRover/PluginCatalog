@@ -8,14 +8,13 @@ submit any questions as new issues tagged with "question".
 .. toctree::
    :maxdepth: 1
    :caption: Infrared Spectroscopy
-   
+   reactir_report_parser
 
 .. toctree::
    :maxdepth: 1
    :caption: Liquid Chromatography
    
    waters_patrol_uplc_report_parser
-   reactir_report_parser
 
 .. toctree::
    :maxdepth: 1

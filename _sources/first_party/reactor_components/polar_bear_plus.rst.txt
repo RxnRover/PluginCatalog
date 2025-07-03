@@ -10,7 +10,7 @@ Description
 
 Plugin class: Temperature Controller
 
-
+- **Supported Hardware:** Polar Bear Plus 
 
 
 Acquisition
@@ -21,7 +21,7 @@ Download and install the plugin from the official GitHub release page listed bel
 **Downloads**
 
 - **Plugin (.vip file):**  
-  `f – Releases <https://github.com/RxnRover/>`_
+  `Polar Bear Plus Plugin – Releases <https://github.com/RxnRover/>`_
 
 - **Drivers:**  
   This plugin does not require any additional drivers.  

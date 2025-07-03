@@ -21,14 +21,14 @@ Download and install the plugin and required drivers from the official GitHub re
 **Downloads**
 
 - **Plugin (.vip file):**  
-  `ChromTech NextGen Pump Plugin – Releases <https://github.com/RxnRover/plugin_chromtech_nextgen_pump/releases>`_.
+  `ChromTech NextGen Pump Plugin – Releases <https://github.com/RxnRover/plugin_chromtech_nextgen_pump/releases>`_
 
 - **Required Drivers:**  
-  `ChromTech NextGen Drivers – Releases <https://github.com/RxnRover/driver_chromtech_next_gen/releases>`_.
+  `ChromTech NextGen Drivers – Releases <https://github.com/RxnRover/driver_chromtech_next_gen/releases>`_
 
 **Source Code**
 
-- `Plugin Repository <https://github.com/RxnRover/plugin_chromtech_nextgen_pump>`_.
-- `Driver Repository <https://github.com/RxnRover/driver_chromtech_next_gen>`_.
+- `Plugin Repository <https://github.com/RxnRover/plugin_chromtech_nextgen_pump>`_
+- `Driver Repository <https://github.com/RxnRover/driver_chromtech_next_gen>`_
 
 

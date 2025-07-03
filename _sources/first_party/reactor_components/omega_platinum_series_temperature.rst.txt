@@ -21,12 +21,12 @@ Download and install the plugin and required drivers from the official GitHub re
 **Downloads**
 
 - **Plugin (.vip file):**  
-  `Omega Platinum Series Plugin – Releases <https://github.com/RxnRover/plugin_omega_platinum_series/releases>`_.
+  `Omega Platinum Series Plugin – Releases <https://github.com/RxnRover/plugin_omega_platinum_series/releases>`_
 
 - **Required Drivers:**  
-  `Omega Platinum Series Drivers – Releases <https://github.com/RxnRover/driver_omega_platinum_series/releases>`_.
+  `Omega Platinum Series Drivers – Releases <https://github.com/RxnRover/driver_omega_platinum_series/releases>`_
 
 **Source Code**
 
-- `Plugin Repository <https://github.com/RxnRover/plugin_omega_platinum_series>`_.
-- `Driver Repository <https://github.com/RxnRover/driver_omega_platinum_series>`_.
+- `Plugin Repository <https://github.com/RxnRover/plugin_omega_platinum_series>`_
+- `Driver Repository <https://github.com/RxnRover/driver_omega_platinum_series>`_

@@ -20,6 +20,9 @@ Download and install the plugin and required drivers from the official GitHub re
 - **Plugin (.vip file):**  
   `Mock LC Parser Plugin – Releases <https://github.com/RxnRover/plugin_mock_lc_parser/releases>`_
 
+- **Drivers:**  
+  This plugin does not require any additional drivers.
+
 **Source Code**
 
 - `Plugin Repository <https://github.com/RxnRover/plugin_mock_lc_parser>`_

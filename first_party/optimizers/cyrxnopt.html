@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ChromTech Next Generation Pumps &mdash; Rxn Rover Plugin Catalog  documentation</title>
+  <title>CyRxnOpt (in-development) &mdash; Rxn Rover Plugin Catalog  documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
 
@@ -19,8 +19,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="ChromTech Series III Pump" href="chromtech_series_iii_pump.html" />
-    <link rel="prev" title="Reactor Components" href="index.html" /> 
+    <link rel="next" title="Rxn Queue (in-development)" href="rxn_queue.html" />
+    <link rel="prev" title="SQSnobFit" href="sqsnobfit.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -46,21 +46,19 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Plugin Classes</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../analyzers/index.html">Analyzers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../optimizers/index.html">Optimization and Control</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Reactor Components</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">ChromTech Next Generation Pumps</a><ul>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Optimization and Control</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="deep_reaction_optimizer.html">Deep Reaction Optimizer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sqsnobfit.html">SQSnobFit</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">CyRxnOpt (in-development)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#description">Description</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#acquisition">Acquisition</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="chromtech_series_iii_pump.html">ChromTech Series III Pump</a></li>
-<li class="toctree-l3"><a class="reference internal" href="omega_platinum_series_temperature.html">Omega Platinum Series</a></li>
-<li class="toctree-l3"><a class="reference internal" href="milligat_pump.html">Milligat Pump (in-development)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="polar_bear_plus.html">Polar Bear Plus (in-development)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="mock_pump_controller.html">Mock Pump Controller</a></li>
-<li class="toctree-l3"><a class="reference internal" href="mock_temperature_controller.html">Mock Temperature Controller</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rxn_queue.html">Rxn Queue (in-development)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rxn_q_timing.html">Rxn Queue With Timing (in-development)</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../reactor_components/index.html">Reactor Components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../templates/index.html">Templates</a></li>
 </ul>
 </li>
@@ -97,10 +95,10 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../index.html">First-Party Plugins</a></li>
-          <li class="breadcrumb-item"><a href="index.html">Reactor Components</a></li>
-      <li class="breadcrumb-item active">ChromTech Next Generation Pumps</li>
+          <li class="breadcrumb-item"><a href="index.html">Optimization and Control</a></li>
+      <li class="breadcrumb-item active">CyRxnOpt (in-development)</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../_sources/first_party/reactor_components/chromtech_nextgen_pumps.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/first_party/optimizers/cyrxnopt.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -108,33 +106,29 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="chromtech-next-generation-pumps">
-<h1>ChromTech Next Generation Pumps<a class="headerlink" href="#chromtech-next-generation-pumps" title="Link to this heading"></a></h1>
+  <section id="cyrxnopt-in-development">
+<h1>CyRxnOpt (in-development)<a class="headerlink" href="#cyrxnopt-in-development" title="Link to this heading"></a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This plugin is currently in development and is <strong>not publicly accessible at this time</strong>.</p>
+</div>
 <section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Link to this heading"></a></h2>
-<p>Plugin class: Pump Controller</p>
-<p>This plugin provides basic control over ChromTech Next Generation pumps,
-including flow rate control, start and stop commands, and pressure monitoring.
-The plugin keeps a log of all data collected in a CSV format for easy analysis
-using a spreadsheet program.</p>
-<ul class="simple">
-<li><p><strong>Supported Hardware:</strong> ChromTech Next Generation Pumps</p></li>
-</ul>
+<p>Plugin class: Optimizer</p>
 </section>
 <section id="acquisition">
 <h2>Acquisition<a class="headerlink" href="#acquisition" title="Link to this heading"></a></h2>
-<p>Download and install the plugin and required drivers from the official GitHub release pages listed below.</p>
+<p>Download and install the plugin from the official GitHub release page listed below.</p>
 <p><strong>Downloads</strong></p>
 <ul class="simple">
 <li><p><strong>Plugin (.vip file):</strong>
-<a class="reference external" href="https://github.com/RxnRover/plugin_chromtech_nextgen_pump/releases">ChromTech NextGen Pump Plugin – Releases</a></p></li>
-<li><p><strong>Required Drivers:</strong>
-<a class="reference external" href="https://github.com/RxnRover/driver_chromtech_next_gen/releases">ChromTech NextGen Drivers – Releases</a></p></li>
+<a class="reference external" href="https://github.com/RxnRover/">f – Releases</a></p></li>
+<li><p><strong>Drivers:</strong>
+This plugin does not require any additional drivers.</p></li>
 </ul>
 <p><strong>Source Code</strong></p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/RxnRover/plugin_chromtech_nextgen_pump">Plugin Repository</a></p></li>
-<li><p><a class="reference external" href="https://github.com/RxnRover/driver_chromtech_next_gen">Driver Repository</a></p></li>
+<li><p><a class="reference external" href="https://github.com/RxnRover/">Plugin Repository</a></p></li>
 </ul>
 </section>
 </section>
@@ -143,8 +137,8 @@ using a spreadsheet program.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="Reactor Components" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="chromtech_series_iii_pump.html" class="btn btn-neutral float-right" title="ChromTech Series III Pump" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="sqsnobfit.html" class="btn btn-neutral float-left" title="SQSnobFit" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rxn_queue.html" class="btn btn-neutral float-right" title="Rxn Queue (in-development)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

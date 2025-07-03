@@ -12,6 +12,8 @@ submit any questions as new issues tagged with "question".
    chromtech_nextgen_pumps
    chromtech_series_iii_pump
    omega_platinum_series_temperature
+   milligat_pump
+   polar_bear_plus
 
 .. toctree::
    :maxdepth: 1

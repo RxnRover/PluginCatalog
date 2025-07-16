@@ -11,11 +11,9 @@ submit any questions as new issues tagged with "question".
    
    deep_reaction_optimizer
    sqsnobfit
-   cyrxnopt
 
 .. toctree::
    :maxdepth: 1
    :caption: Manual Control
    
    rxn_queue
-   rxn_q_timing

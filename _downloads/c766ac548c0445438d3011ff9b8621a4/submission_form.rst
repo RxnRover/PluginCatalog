@@ -1,31 +1,19 @@
 Name of the Plugin
 ==================
 
-Description
------------
-
-Plugin class: Plugin Class Name
-
-A brief description of the plugin describing:
-* What the plugin is used for (including applicable information like what
- hardware it works on)
-* Plugin Capabilities
-
-- **Supported Hardware:** Example Hardware 
+Plugin class: `<Analyzer|Optimizer|Reactor component>`
 
 Acquisition
 -----------
 
 A brief statement about how to acquire the plugin. For example:
 
-**Downloads**
+This plugin is available for download at `<plugin_website_here>`.
 
-- **Plugin (.vip file):**  
-  `Plugin Name Plugin – Releases <link to plugin releases>`_
+Description
+-----------
 
-- **Required Drivers:**  
-  `Required Drivers – Releases <link to driver releases>`_
-
-**Source Code**
-
-- `Plugin Repository <link to plugin repository>`_
+A brief description of the plugin describing:
+* What the plugin is used for (including applicable information like what
+ hardware it works on)
+* Plugin Capabilities

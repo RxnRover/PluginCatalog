@@ -19,7 +19,7 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="CyRxnOpt (in-development)" href="cyrxnopt.html" />
+    <link rel="next" title="Rxn Queue" href="rxn_queue.html" />
     <link rel="prev" title="Deep Reaction Optimizer" href="deep_reaction_optimizer.html" /> 
 </head>
 
@@ -49,13 +49,11 @@
 <li class="toctree-l2 current"><a class="reference internal" href="index.html">Optimization and Control</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="deep_reaction_optimizer.html">Deep Reaction Optimizer</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">SQSnobFit</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#description">Description</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#acquisition">Acquisition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#description">Description</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="cyrxnopt.html">CyRxnOpt (in-development)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="rxn_queue.html">Rxn Queue (in-development)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="rxn_q_timing.html">Rxn Queue With Timing (in-development)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rxn_queue.html">Rxn Queue</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../reactor_components/index.html">Reactor Components</a></li>
@@ -108,9 +106,13 @@
              
   <section id="sqsnobfit">
 <h1>SQSnobFit<a class="headerlink" href="#sqsnobfit" title="Link to this heading"></a></h1>
+<p>Plugin class: Optimizer</p>
+<section id="acquisition">
+<h2>Acquisition<a class="headerlink" href="#acquisition" title="Link to this heading"></a></h2>
+<p>This plugin is available for download at <a class="reference external" href="https://github.com/RxnRover/plugin_sqsnobfit">https://github.com/RxnRover/plugin_sqsnobfit</a>.</p>
+</section>
 <section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Link to this heading"></a></h2>
-<p>Plugin class: Optimizer</p>
 <p>This plugin allows Rxn Rover to connect with an instance of <a class="reference external" href="https://pypi.org/project/SQSnobFit/">SQSnobFit</a>, a Python reimplementation of the
 <a class="reference external" href="https://www.mat.univie.ac.at/~neum/software/snobfit/">SNOBFIT</a> blackbox
 optimization algorithm. A Python program is provided with the plugin to launch
@@ -119,20 +121,6 @@ modified objective function with built-in communication capabilities. The
 SQSnobFit algorithm, along with other aspects of the program, can be
 configured by specifying a configuration file (example files are provided).</p>
 </section>
-<section id="acquisition">
-<h2>Acquisition<a class="headerlink" href="#acquisition" title="Link to this heading"></a></h2>
-<p>Download and install the plugin from the official GitHub release pages listed below.</p>
-<p><strong>Downloads</strong></p>
-<ul class="simple">
-<li><p><strong>Plugin (.vip file):</strong>
-<a class="reference external" href="https://github.com/RxnRover/plugin_sqsnobfit/releases">SQSnobFit Plugin – Releases</a></p></li>
-<li><p><strong>Drivers:</strong>
-This plugin does not require any additional drivers.</p></li>
-</ul>
-<p><strong>Source Code</strong>
-- <a class="reference external" href="https://github.com/RxnRover/plugin_sqsnobfit">Plugin Repository</a>
-- <a class="reference external" href="https://github.com/RxnRover/snobfit_remote_optimization">SQSnobFit Remote Optimization Repository</a></p>
-</section>
 </section>
 
 
@@ -140,7 +128,7 @@ This plugin does not require any additional drivers.</p></li>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="deep_reaction_optimizer.html" class="btn btn-neutral float-left" title="Deep Reaction Optimizer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="cyrxnopt.html" class="btn btn-neutral float-right" title="CyRxnOpt (in-development)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="rxn_queue.html" class="btn btn-neutral float-right" title="Rxn Queue" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

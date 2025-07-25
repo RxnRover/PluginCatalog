@@ -21,11 +21,12 @@ Download and install the plugin from the official GitHub release page listed bel
 **Downloads**
 
 - **Plugin (.vip file):**  
-  `Polar Bear Plus Plugin – Releases <https://github.com/RxnRover/>`_
+  `Polar Bear Plus Plugin – Releases <https://github.com/RxnRover/plugin_polar_bear_plus/releases>`_
 
 - **Drivers:**  
-  This plugin does not require any additional drivers.  
+  `Polar Bear Plus Drivers - Releases <https://github.com/RxnRover/driver_polar_bear_plus/releases>`_
+  `Eurotherm nanodac Controller Drivers <https://sine.ni.com/apps/utf8/niid_web_display.download_page?p_id_guid=CDE89C1186CB633BE0440021287E6E02>`
 
 **Source Code**
 
-- `Plugin Repository <https://github.com/RxnRover/>`_         
+- `Plugin Repository <https://github.com/RxnRover/plugin_polar_bear_plus>`_         

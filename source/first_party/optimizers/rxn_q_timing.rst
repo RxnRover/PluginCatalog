@@ -1,5 +1,5 @@
-Rxn Queue With Timing (in-development)
-======================================
+Rxn Q With Timing (in-development)
+==================================
 
 .. warning::
 
@@ -23,11 +23,11 @@ Download and install the plugin from the official GitHub release page listed bel
 **Downloads**
 
 - **Plugin (.vip file):**  
-  `Rxn Queue With Timing – Releases <https://github.com/RxnRover/>`_
+  `Rxn Queue With Timing – Releases <https://github.com/RxnRover/plugin_rxn_q_timing/releases>`_
 
 - **Drivers:**  
   This plugin does not require any additional drivers.
 
 **Source Code**
 
-- `Plugin Repository <https://github.com/RxnRover/>`_
+- `Plugin Repository <https://github.com/RxnRover/plugin_rxn_q_timing>`_

@@ -1,5 +1,5 @@
-Rxn Queue (in-development)
-==========================
+Rxn Q (in-development)
+======================
 
 .. warning::
 

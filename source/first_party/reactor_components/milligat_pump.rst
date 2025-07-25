@@ -22,11 +22,11 @@ Download and install the plugin from the official GitHub release page listed bel
 **Downloads**
 
 - **Plugin (.vip file):**  
-  `MilliGAT Pump Plugin – Releases <https://github.com/RxnRover/>`_
+  `MilliGAT Pump Plugin – Releases <https://github.com/RxnRover/plugin_milligat_pump/releases>`_
 
 - **Drivers:**  
   MilliGAT pump drivers are required to communicate with the pumps. These drivers can be obtained from GlobalFIA using their information email, **info@globalfia.com**. Once the drivers are downloaded, extract the files into your <labview>/instr.lib directory, where <labview> is the location of your LabVIEW installation.
 
 **Source Code**
 
-- `Plugin Repository <https://github.com/RxnRover/>`_
+- `Plugin Repository <https://github.com/RxnRover/plugin_milligat_pump>`_

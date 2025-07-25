@@ -17,13 +17,19 @@ plugin, or learn a little bit about us!
    :caption: Third-Party Plugins
    
    Plugin Classes <third_party/index>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Core Tools
+
+   core_tools/index
    
 .. toctree::
    :maxdepth: 1
    :caption: Submissions
    
    submissions/index
-   
+
 .. toctree::
    :maxdepth: 1
    :caption: The Rxn Rover Team

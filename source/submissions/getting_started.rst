@@ -1,5 +1,5 @@
 Getting Started
-===============
+================
 
 Creating a Plugin
 -----------------

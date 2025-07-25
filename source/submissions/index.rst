@@ -1,3 +1,6 @@
+Submissions
+===========
+
 .. toctree::
    :maxdepth: 1
    

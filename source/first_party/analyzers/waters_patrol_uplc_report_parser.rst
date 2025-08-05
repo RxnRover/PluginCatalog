@@ -4,7 +4,7 @@ Waters |tm| Patrol |tm| UPLC |tm| Report Parser [#f1]_
 Description
 -----------
 
-Plugin class: Optimizer
+Plugin class: Analyzer
 
 This plugin parses report files output from Waters |tm| Patrol |tm| program to 
 extract the concentration of an analyte. The plugin will average the results 

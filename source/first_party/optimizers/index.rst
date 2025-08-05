@@ -17,5 +17,5 @@ submit any questions as new issues tagged with "question".
    :maxdepth: 1
    :caption: Manual Control
    
-   rxn_queue
+   rxn_q
    rxn_q_timing

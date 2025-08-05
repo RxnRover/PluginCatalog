@@ -25,8 +25,7 @@ Download and install the plugin from the official GitHub release page listed bel
 
 **Downloads**
 
-- **Plugin (.vip file):**  
-  `CyRxnOpt Plugin – Releases <https://github.com/RxnRover/plugin_dro/releases>`_
+- **Plugin (.vip file):** `DRO Plugin – Releases <https://github.com/RxnRover/plugin_dro/releases>`_
 
 **Source Code**
 

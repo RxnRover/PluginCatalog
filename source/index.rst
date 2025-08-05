@@ -22,13 +22,16 @@ plugin, or learn a little bit about us!
    :maxdepth: 2
    :caption: Core Tools
 
-   core_tools/index
+   core_tools/libraries/index
+   core_tools/software/index
    
 .. toctree::
    :maxdepth: 1
    :caption: Submissions
-   
-   submissions/index
+     
+   submissions/getting_started
+   submissions/plugin_submission_form
+   submissions/submit_a_plugin
 
 .. toctree::
    :maxdepth: 1

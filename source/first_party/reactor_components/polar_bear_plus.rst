@@ -18,6 +18,10 @@ Acquisition
 
 Download and install the plugin from the official GitHub release page listed below.
 
+.. warning::
+
+   Due to depreciated functionality in the Eurotherm nanodac drivers, this plugin is currently compatible with LabVIEW 2020 and earlier. 
+
 **Downloads**
 
 - **Plugin (.vip file):**  

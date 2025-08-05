@@ -25,7 +25,9 @@ Download and install the plugin from the official GitHub release page listed bel
 **Downloads**
 
 - **Plugin (.vip file):**  
-  `MilliGAT Pump Plugin – Releases <https://github.com/RxnRover/plugin_waters_patrol_uplc_report_parser/releases>`_
+  `Waters Patrol UPLC Report Parser – Releases <https://github.com/RxnRover/plugin_waters_patrol_uplc_report_parser/releases>`_
+
+- **Drivers**: This plugin does not require any additional drivers.  
 
 **Source Code**
 

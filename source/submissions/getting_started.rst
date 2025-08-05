@@ -6,7 +6,7 @@ Creating a Plugin
 
 A plugin submission begins with creating a useful plugin worth submitting! 
 Tutorials for creating plugins are hosted on the `Rxn Rover documentation 
-website <https://RxnRover.github.io/RxnRover/>`_. Plugins can be 
+website <https://rxnrover.github.io/RxnRover/dev_resources/tutorials/new_plugin/index.html>`_. Plugins can be 
 created using a provided template 
 (:doc:`first- </first_party/templates/index>` or 
 :doc:`third- </third_party/templates/index>` party), or 

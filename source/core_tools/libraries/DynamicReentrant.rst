@@ -7,7 +7,7 @@ Description
 -----------
 
 The Dynamic Reentrant library facilitates communication between Rxn Rover and its plugins, and helps manage dynamic reentrant VIs. 
-This library is essential for first-party(and likely most other third-party) plugins to work with Rxn Rover, 
+This library is essential for first-party (and likely most other third-party) plugins to work with Rxn Rover.
 
 Acquisition
 -----------

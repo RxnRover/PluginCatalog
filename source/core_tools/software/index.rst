@@ -4,4 +4,4 @@ Software
 .. toctree::
    :maxdepth: 1
    
-   Rxn_Rover
+   rxn_rover

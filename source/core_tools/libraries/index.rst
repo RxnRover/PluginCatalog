@@ -5,4 +5,4 @@ This section lists libraries created by Rxn Rover's team that are used for the f
 .. toctree::
    :maxdepth: 1
 
-   Dynamic_Reentrant
+   dynamic_reentrant

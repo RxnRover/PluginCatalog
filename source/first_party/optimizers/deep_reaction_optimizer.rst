@@ -18,14 +18,12 @@ configuration file (example files are provided).
 .. [#dro] Zhou, Z.;  Li, X.; Zare, R. N., Optimizing Chemical Reactions with Deep Reinforcement Learning. ACS Central Science 2017, 3 (12), 1337-1344.; DOI: 10.1021/acscentsci.7b00492; Code available at: https://github.com/lightingghost/chemopt.
 
 
-Aqcquisition
+Acquisition
 ------------
 
 Download and install the plugin from the official GitHub release page listed below.
 
 **Downloads**
-
-- **Plugin (.vip file):** `DRO Plugin – Releases <https://github.com/RxnRover/plugin_dro/releases>`_
 
 **Source Code**
 

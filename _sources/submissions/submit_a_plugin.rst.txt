@@ -1,5 +1,5 @@
 Submit a Plugin
-===================
+================
 
 .. note::
    This page assumes that you have already read and completed the tasks in

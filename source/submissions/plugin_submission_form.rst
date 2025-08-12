@@ -1,5 +1,5 @@
 Plugin Submission Form
-======================
+=======================
 
 This plugin submission form will serve as both a request to have your plugin
 added to the `Rxn Rover Plugin Catalog GitHub Repository <https://github.com/

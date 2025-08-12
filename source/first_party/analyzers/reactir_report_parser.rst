@@ -1,5 +1,5 @@
-React IR Report Parser (in-development)
-=======================================
+ReactIR Report Parser (in-development)
+======================================
 
 .. warning::
 

@@ -13,8 +13,7 @@ Acquisition
 -----------
 
 Download and install from the official GitHub release pages listed below. Also ensure you have installed DynamicReentrant which can be found here :ref:`dynamic-reentrant`.
-
-**Downloads**
+And for some plugins(which require it), please ensure you have also installed the :ref:`plugin_core` library.
 
 - **Quick Installer via VIPM (.vip file):**  
   `Rxn Rover – Releases <https://github.com/RxnRover/RxnRover/releases>`_

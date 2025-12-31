@@ -12,9 +12,7 @@ This library is essential for first-party (and likely most other third-party) pl
 Acquisition
 -----------
 
-Download and install from the official GitHub release pages listed below.
-
-**Downloads**
+Download and install from the official GitHub release pages:
 
 - **Quick Installer via VIPM (.vip file):**  
   `Dynamic Reentrant – Releases <https://github.com/RxnRover/DynamicReentrant/releases>`_
